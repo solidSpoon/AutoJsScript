@@ -7,7 +7,7 @@ while(1){
     if(old != newer){
         //engines.execScriptFile("/sdcard/脚本/推送到电脑.js");
         http.postJson(url, {
-            "toUser":"2571049276@qq.com",
+            "toUser":"",
             "code":"",
             "data":newer,
             "operation":"copy",
