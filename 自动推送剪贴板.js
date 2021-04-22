@@ -8,7 +8,7 @@ while(1){
         //engines.execScriptFile("/sdcard/脚本/推送到电脑.js");
         http.postJson(url, {
             "toUser":"2571049276@qq.com",
-            "code":"HXLidQFcav",
+            "code":"",
             "data":newer,
             "operation":"copy",
         });
